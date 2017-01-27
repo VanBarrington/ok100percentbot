@@ -1,0 +1,15 @@
+{
+  "name": "ok100percent",
+  "version": "1.0.0",
+  "description": "meme response bot",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "@slack/client": "^3.8.1",
+    "slackbots": "^1.0.2"
+  }
+}
