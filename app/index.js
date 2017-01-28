@@ -2,7 +2,7 @@ import './exit';
 import config from './config';
 
 console.log(config);
-console.log('foo');
+console.log('change');
 // var Slackbot = require('slackbots');
 
 // var bot = new Slackbot({
