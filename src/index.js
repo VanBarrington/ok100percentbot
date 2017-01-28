@@ -1,6 +1,9 @@
 import './exit';
 import config from './config';
 
-console.log(config);
-console.log('change');
-console.log('test');
+console.log(process.env.test);
+
+process.on("SIGINT", function () {
+  //graceful shutdown
+  process.exit();
+});

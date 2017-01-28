@@ -10,8 +10,3 @@ if (process.platform === "win32") {
     process.emit("SIGINT");
   });
 }
-
-process.on("SIGINT", function () {
-  //graceful shutdown
-  process.exit();
-});
