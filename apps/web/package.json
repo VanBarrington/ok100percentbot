@@ -1,0 +1,14 @@
+{
+  "name": "ok100percentbot-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "beta"
+  },
+  "dependencies": {
+    "botkit": "^0.4.9",
+    "lodash": "^4.17.4"
+  }
+}
